@@ -1,5 +1,6 @@
-covtype = read.table("/Users/megbobba/Desktop/covtype.data", sep=',')
-tpca <- prcomp(covtype[, (1:54)])
+forestdataframe <- read.table("/Users/megbobba/Desktop/covtype.data", sep=',')
+forestdata <- as.matrix(forestdataframe)
+tpca <- prcomp(forestdata[, (1:54)])
 tmp <- cumsum(tpca$sdev^2)
 percentageOfTotalVariance <- tmp / tmp[54]
 plot(percentageOfTotalVariance)
