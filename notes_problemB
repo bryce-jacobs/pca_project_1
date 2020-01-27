@@ -1,0 +1,3 @@
+create dataframes ratings.csv and movies.csv
+code to determine how many single genres: :no genres listed : ~20
+code to create a new dataframe "singles" 21 columns and same number of rows as in movies
