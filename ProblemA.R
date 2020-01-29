@@ -15,8 +15,3 @@ plot(percentageOfTotalVariance)
 #would want up to four principal compoments (as we would have more computational
 #resources and customers who would rely on our precision).
 
-#We cannot see that the cover types are separating here, so we know that the first
-#two components are not sufficient in predicting the cover type. We cannot know with
-#certainty that all of the principal components together would be sufficient in 
-#predicting the principal components because we cannot plot these variables on a 
-#2 dimensional graph. 
